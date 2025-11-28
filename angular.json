@@ -64,7 +64,8 @@
               "buildTarget": "calendariofestivo:build:production"
             },
             "development": {
-              "buildTarget": "calendariofestivo:build:development"
+              "buildTarget": "calendariofestivo:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

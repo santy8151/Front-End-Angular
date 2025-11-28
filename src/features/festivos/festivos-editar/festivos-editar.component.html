@@ -1,0 +1,13 @@
+<form *ngIf="festivo" (ngSubmit)="actualizar()" #form="ngForm">
+  <label>Fecha</label>
+  <input type="date" name="fecha" [(ngModel)]="festivo.fecha" required />
+
+  <label>Nombre</label>
+  <input type="text" name="nombre" [(ngModel)]="festivo.nombre" required />
+
+  <label>Tipo</label>
+  <input type="text" name="tipo" [(ngModel)]="festivo.tipo" required />
+
+  <button type="submit">Actualizar</button>
+  <button type="button" (click)="volver()">Cancelar</button>
+</form>

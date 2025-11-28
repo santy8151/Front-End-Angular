@@ -1,0 +1,13 @@
+<h2>Agregar Festivo</h2>
+<form #form="ngForm" (ngSubmit)="guardar()">
+  <label>Fecha</label>
+  <input type="date" name="fecha" [(ngModel)]="festivo.fecha" required />
+
+  <label>Nombre</label>
+  <input type="text" name="nombre" [(ngModel)]="festivo.nombre" required />
+
+  <label>Tipo</label>
+  <input type="text" name="tipo" [(ngModel)]="festivo.tipo" required />
+
+  <button type="submit">Guardar</button>
+</form>

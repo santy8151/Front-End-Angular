@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/azure-blue.css'; 
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+.barraTituloCRUD {
+    background: rgb(24, 2, 53);
+    color: #fff;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}

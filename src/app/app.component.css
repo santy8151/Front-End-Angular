@@ -1,0 +1,11 @@
+mat-toolbar {
+    background: #2e747b;
+    color:  white
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
