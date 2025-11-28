@@ -1,59 +1,41 @@
-# Calendariofestivo
+##Calendario Festivo – Frontend Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+Este proyecto es una aplicación web desarrollada en Angular que permite listar, buscar, agregar, editar y eliminar festivos de una API REST.
+Cuenta con diseño modular, servicios centralizados y compatibilidad con SSR e hidratación.
 
-## Development server
+#Características principales
 
-To start a local development server, run:
+CRUD completo de festivos
 
-```bash
-ng serve
-```
+Búsqueda por texto
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Integración con API REST mediante HttpClient
 
-## Code scaffolding
+Angular Material para tablas y componentes visuales
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Proxy de Angular configurado para evitar errores CORS
 
-```bash
-ng generate component component-name
-```
+Código actualizado y funcional
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+##Ejecutar el proyecto
 
-```bash
-ng generate --help
-```
+Para iniciar el servidor de desarrollo, utiliza:
 
-## Building
+npm start
 
-To build the project run:
 
-```bash
-ng build
-```
+O alternativamente:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+ng serve --open
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+El proyecto estará disponible en:
 
-```bash
-ng test
-```
+http://localhost:4200
 
-## Running end-to-end tests
+##Nota
 
-For end-to-end (e2e) testing, run:
+Asegúrate de que el backend esté disponible en el puerto correspondiente para que la aplicación pueda comunicarse correctamente con la API.
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
