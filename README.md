@@ -35,7 +35,7 @@ http://localhost:4200
 
 ##Nota
 
-Asegúrate de que el backend esté disponible en el puerto correspondiente para que la aplicación pueda comunicarse correctamente con la API.
+Asegurese de que el backend esté disponible en el puerto correspondiente para que la aplicación pueda comunicarse correctamente con la API.esta cnfigurado para el puerto 8080
 
 
 
